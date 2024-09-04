@@ -87,12 +87,7 @@ ul {
         top: 100px;
     }
     .vl{
-        border-left: 2px solid white;
-        height: 50px;
-        position: absolute;
-        left: 50%;
-        margin-left:90px;
-        top: 0;
+        display: none;
         }
        
         .social-icon{
