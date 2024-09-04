@@ -1,0 +1,277 @@
+*{
+    background-color:black;
+}
+*{
+   margin: 0px;
+   padding: 0px;
+}
+*{
+    font-family:system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  /*--------- -*/
+.section-1 img{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.section-1 h1{
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+.section-1 p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+
+
+.overlay{
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    opacity: 0.4;
+    background-color: rgba(0, 0, 0, 0.675);
+}
+
+.vl{
+    border-left: 2px solid white;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: 430px;
+    top: 0;
+}
+
+.social-icon{
+    position: absolute;
+    left: 90%;
+    top: 70px;
+    left: 920px;
+    margin-bottom: 20px;
+    z-index: 1;
+    background-color: transparent;
+}
+.social-icon li,a{
+    background-color: transparent;
+    color: white;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .section-1 img{
+        width: 100%;
+        height: 200px;
+    }
+
+    .section-1 h1{
+        font-size: large;
+        top: 70px;
+    }
+
+    .section-1 p{
+        width: 250px;
+        font-size: smaller;
+        top: 100px;
+    }
+    .vl{
+        border-left: 2px solid white;
+        height: 50px;
+        position: absolute;
+        left: 50%;
+        margin-left: 215px;
+        top: 0;
+        }
+       
+        .social-icon{
+            position: absolute;
+            left: 90%;
+            top: 70px;
+            left: 450px;
+            margin-bottom: 20px;
+            z-index: 1;
+            background-color: transparent;
+        }
+    
+}
+/* Section 2 */
+
+.aboutme{
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.qoute{
+    color: white;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    text-align: center;
+    margin: 20px;
+
+}
+.profile{
+    width: 300px;
+    height: 220px;
+    margin-left: 60px;
+}
+.para1{
+    color:rgb(124, 150, 72);
+    width: 340px;
+    height: 120px;
+    margin-right: 200px;
+    margin-top: 50px;
+    
+    padding: 10px;
+    border-radius: 10px;
+}
+.aboutme_sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:600px){
+    .qoute{
+        font-size: x-small;
+    }
+    .profile{
+        width: 150px;
+        height: 100px;
+    }
+
+    .para1{
+        font-size: x-small;
+        margin-right: 50px;
+        width: 250px;
+        height: 70px;
+        margin-top: 5px;
+    }
+    .aboutme{
+        font-size: medium;
+    }
+}
+
+
+/* Container for the skills section */
+.skills {
+    padding: 20px;
+    color:white;
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 100%;
+    margin: 0 auto 20px auto;
+    
+}
+
+.skills-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between items */
+    margin-bottom: 20px;
+}
+
+.skills-div div {
+    flex: 1 1 200px; 
+    padding: 15px;
+    text-align: center;
+}
+
+.skills-div img {
+    width: 50px; 
+    height: 50px; 
+    margin-bottom: 10px;
+}
+
+.skills-div h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.skills-div p {
+    font-size: 0.9em;
+    color:white; /* Slightly lighter color for text */
+    line-height: 1.5;
+    margin: 0;
+}
+/* ------------------------------ */
+
+
+#projects {
+    padding: 20px;
+    color: white;
+    text-align: center;
+ 
+}
+
+.projects-div {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between project cards */
+}
+
+.project-card {
+    
+    border: 1px solid #ddd; /* Light border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    width: 300px; /* Fixed width for project cards */
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%; /* Full width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-bottom: 1px solid #ddd; /* Separator line */
+    margin-bottom: 10px;
+}
+
+.project-card h3 {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.5;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color:rgb(110, 129, 71); /* Link color */
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
